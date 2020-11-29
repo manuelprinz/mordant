@@ -4,7 +4,7 @@ import com.github.ajalt.mordant.internal.CSI
 import com.github.ajalt.mordant.terminal.AnsiLevel
 import com.github.ajalt.mordant.terminal.TerminalColors
 import io.kotest.matchers.shouldBe
-import org.junit.Test
+import kotlin.test.Test
 
 class TerminalColorsTest {
     private val t = TerminalColors(AnsiLevel.TRUECOLOR)

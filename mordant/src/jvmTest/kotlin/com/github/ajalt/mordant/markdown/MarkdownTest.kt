@@ -17,7 +17,7 @@ import org.intellij.markdown.ast.LeafASTNode
 import org.intellij.markdown.flavours.MarkdownFlavourDescriptor
 import org.intellij.markdown.flavours.gfm.GFMFlavourDescriptor
 import org.intellij.markdown.parser.MarkdownParser
-import org.junit.Test
+import kotlin.test.Test
 
 private val code = (brightRed on gray) + dim
 

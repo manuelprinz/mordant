@@ -2,7 +2,7 @@ package com.github.ajalt.mordant.rendering
 
 import com.github.ajalt.mordant.components.Text
 import com.github.ajalt.mordant.terminal.TextColors.red
-import org.junit.Test
+import kotlin.test.Test
 
 class RenderableBuilderTest : RenderingTest() {
     @Test

@@ -3,7 +3,7 @@ package com.github.ajalt.mordant.rendering.internal
 import io.kotest.data.blocking.forAll
 import io.kotest.data.row
 import io.kotest.matchers.shouldBe
-import org.junit.Test
+import kotlin.test.Test
 
 
 internal class CellWidthTest {

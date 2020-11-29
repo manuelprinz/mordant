@@ -3,7 +3,7 @@ package com.github.ajalt.mordant.rendering
 import com.github.ajalt.mordant.components.HorizontalRule
 import com.github.ajalt.mordant.components.Text
 import com.github.ajalt.mordant.terminal.TextColors.red
-import org.junit.Test
+import kotlin.test.Test
 
 class HorizontalRuleTest : RenderingTest() {
     @Test

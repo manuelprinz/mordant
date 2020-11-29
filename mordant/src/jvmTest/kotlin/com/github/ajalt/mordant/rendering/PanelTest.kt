@@ -3,7 +3,7 @@ package com.github.ajalt.mordant.rendering
 import com.github.ajalt.mordant.rendering.Whitespace.PRE
 import com.github.ajalt.mordant.components.Panel
 import com.github.ajalt.mordant.components.Text
-import org.junit.Test
+import kotlin.test.Test
 
 class PanelTest : RenderingTest(width = 20) {
 

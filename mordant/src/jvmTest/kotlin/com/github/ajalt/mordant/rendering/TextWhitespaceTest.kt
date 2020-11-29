@@ -3,7 +3,7 @@ package com.github.ajalt.mordant.rendering
 import com.github.ajalt.mordant.rendering.TextAlign.NONE
 import com.github.ajalt.mordant.rendering.Whitespace.*
 import com.github.ajalt.mordant.components.Text
-import org.junit.Test
+import kotlin.test.Test
 
 
 class TextWhitespaceTest : RenderingTest() {

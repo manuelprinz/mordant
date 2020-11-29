@@ -4,7 +4,7 @@ import com.github.ajalt.mordant.internal.CSI
 import io.kotest.data.blocking.forAll
 import io.kotest.data.row
 import io.kotest.matchers.shouldBe
-import org.junit.Test
+import kotlin.test.Test
 
 private fun c(b: TerminalCursor.() -> Unit): String {
     val t = VirtualTerminal()

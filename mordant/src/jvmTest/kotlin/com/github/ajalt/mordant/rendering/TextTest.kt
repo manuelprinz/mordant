@@ -16,7 +16,7 @@ import com.github.ajalt.mordant.internal.OSC
 import com.github.ajalt.mordant.internal.ST
 import io.kotest.data.blocking.forAll
 import io.kotest.data.row
-import org.junit.Test
+import kotlin.test.Test
 
 
 class TextTest : RenderingTest() {

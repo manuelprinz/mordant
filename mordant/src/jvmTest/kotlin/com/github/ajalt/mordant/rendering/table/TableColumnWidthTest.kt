@@ -9,7 +9,7 @@ import com.github.ajalt.mordant.table.Borders.ALL
 import com.github.ajalt.mordant.table.Borders.LEFT_RIGHT
 import com.github.ajalt.mordant.table.ColumnWidth
 import com.github.ajalt.mordant.table.table
-import org.junit.Test
+import kotlin.test.Test
 
 class TableColumnWidthTest : RenderingTest() {
     @Test

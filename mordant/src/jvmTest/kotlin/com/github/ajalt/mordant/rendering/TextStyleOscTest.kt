@@ -5,7 +5,7 @@ import com.github.ajalt.mordant.internal.OSC
 import com.github.ajalt.mordant.internal.ST
 import com.github.ajalt.mordant.internal.generateHyperlinkId
 import io.kotest.matchers.shouldBe
-import org.junit.Test
+import kotlin.test.Test
 
 class TextStyleOscTest {
     init {

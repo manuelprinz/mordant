@@ -6,7 +6,7 @@ import com.github.ajalt.mordant.rendering.RenderingTest
 import com.github.ajalt.mordant.table.Borders.*
 import com.github.ajalt.mordant.table.SectionBuilder
 import com.github.ajalt.mordant.table.table
-import org.junit.Test
+import kotlin.test.Test
 
 class TableBorderStyleTest : RenderingTest() {
     @Test
