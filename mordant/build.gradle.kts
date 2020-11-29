@@ -10,6 +10,7 @@ plugins {
 kotlin {
     // TODO: other targets
     jvm()
+    linuxX64()
 
     sourceSets {
         val commonMain by getting {
@@ -32,6 +33,14 @@ kotlin {
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
+            }
+        }
+        val linuxX64Main by getting {
+            dependsOn(gen)
+        }
+        val linuxX64Test by getting {
+            dependencies {
+                implementation(kotlin("test-native"))
             }
         }
     }
