@@ -225,6 +225,14 @@ dependencies {
 
 ###### In version 2.0, the maven coordinates changed. Make sure you're using the new coordinates if you're updating from an older version.
 
+## Development
+ 
+### Compiling on Kotlin/Native
+
+On order to compile Mardant for Linux native, you need to install the following packages:
+* Debian/Ubuntu: `apt install libtinfo-dev libtinfo5`
+
+
 ## License
 
     Copyright 2018-2020 AJ Alt
