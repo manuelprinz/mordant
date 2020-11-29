@@ -14,25 +14,25 @@ kotlin {
 
     sourceSets {
         val commonMain by getting {
-            dependencies {
-                api("com.github.ajalt.colormath:colormath:2.0.0")
-            }
         }
         val commonTest by getting {
             dependencies {
-                implementation("io.kotest:kotest-assertions-core:4.3.0")
+                implementation(kotlin("test-common"))
+                implementation(kotlin("test-annotations-common"))
             }
         }
         val gen by creating { }
         val jvmMain by getting {
             dependsOn(gen)
             dependencies {
+                api("com.github.ajalt.colormath:colormath:2.0.0")
                 implementation("org.jetbrains:markdown:0.1.45")
             }
         }
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
+                implementation("io.kotest:kotest-assertions-core:4.3.0")
             }
         }
         val linuxX64Main by getting {
@@ -40,7 +40,7 @@ kotlin {
         }
         val linuxX64Test by getting {
             dependencies {
-                implementation(kotlin("test-native"))
+                implementation(kotlin("test"))
             }
         }
     }
